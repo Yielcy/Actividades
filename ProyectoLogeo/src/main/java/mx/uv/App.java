@@ -1,13 +1,12 @@
 package mx.uv;
 
-/**
- * Hello world!
- *
- */
+import static spark.Spark.*;
+import com.google.gson.*;
+
 public class App 
 {
-    public static void main( String[] args )
-    {
+    public static void main( String[] args ){
         System.out.println( "Hello World!" );
+        //get("/hello", {rq, res} -> 'Hello World');
     }
 }
